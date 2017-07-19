@@ -176,7 +176,8 @@ class Personalize_Login_Plugin {
 	    
 			$authorization = "Authorization: Bearer ".$token;
 						
-			$ch = curl_init("http://localhost:8080/certificadora-social-oauth2/endpoints/seguranca/usuario/logado");
+			//$ch = curl_init("http://localhost:8080/certificadora-social-oauth2/endpoints/seguranca/usuario/logado");
+			$ch = curl_init("http://leasdle01.icei.pucminas.br:8080/certificadora-social-oauth2/endpoints/seguranca/usuario/logado");
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array('Accept: application/json' , $authorization ));
 			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");		
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
