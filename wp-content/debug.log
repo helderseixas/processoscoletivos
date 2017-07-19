@@ -1,0 +1,203 @@
+[18-Jul-2017 17:48:14 UTC] entrou
+[18-Jul-2017 17:57:42 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-includes/update.php on line 323
+[18-Jul-2017 17:58:56 UTC] entrou
+[18-Jul-2017 17:58:56 UTC] 
+[18-Jul-2017 17:59:04 UTC] entrou
+[18-Jul-2017 17:59:04 UTC] 
+[18-Jul-2017 17:59:13 UTC] entrou
+[18-Jul-2017 17:59:13 UTC] 
+[18-Jul-2017 17:59:13 UTC] entrou
+[18-Jul-2017 17:59:13 UTC] 
+[18-Jul-2017 17:59:19 UTC] entrou
+[18-Jul-2017 17:59:19 UTC] 
+[18-Jul-2017 18:05:58 UTC]  abc entrou
+[18-Jul-2017 18:05:58 UTC] /processoscoletivos/certificado-social/?access_token=488e2fced4d5eb416a13a1776c200bf8
+[18-Jul-2017 18:14:09 UTC]  abc entrou
+[18-Jul-2017 18:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php:133
+Stack trace:
+#0 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(298): Personalize_Login_Plugin->authenticate_certificado_social('')
+#1 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/processoscoletivos/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/processoscoletivos/wp-settings.php(448): do_action('init')
+#4 /var/www/html/processoscoletivos/wp-config.php(94): require_once('/var/www/html/p...')
+#5 /var/www/html/processoscoletivos/wp-load.php(37): require_once('/var/www/html/p...')
+#6 /var/www/html/processoscoletivos/wp-cron.php(26): require_once('/var/www/html/p...')
+#7 {main}
+  thrown in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 133
+[18-Jul-2017 18:14:09 UTC]  abc entrou
+[18-Jul-2017 18:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php:133
+Stack trace:
+#0 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(298): Personalize_Login_Plugin->authenticate_certificado_social('')
+#1 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/processoscoletivos/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/processoscoletivos/wp-settings.php(448): do_action('init')
+#4 /var/www/html/processoscoletivos/wp-config.php(94): require_once('/var/www/html/p...')
+#5 /var/www/html/processoscoletivos/wp-load.php(37): require_once('/var/www/html/p...')
+#6 /var/www/html/processoscoletivos/wp-blog-header.php(13): require_once('/var/www/html/p...')
+#7 /var/www/html/processoscoletivos/index.php(17): require('/var/www/html/p...')
+#8 {main}
+  thrown in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 133
+[18-Jul-2017 18:14:54 UTC]  abc entrou
+[18-Jul-2017 18:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php:133
+Stack trace:
+#0 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(298): Personalize_Login_Plugin->authenticate_certificado_social('')
+#1 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/processoscoletivos/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/processoscoletivos/wp-settings.php(448): do_action('init')
+#4 /var/www/html/processoscoletivos/wp-config.php(94): require_once('/var/www/html/p...')
+#5 /var/www/html/processoscoletivos/wp-load.php(37): require_once('/var/www/html/p...')
+#6 /var/www/html/processoscoletivos/wp-blog-header.php(13): require_once('/var/www/html/p...')
+#7 /var/www/html/processoscoletivos/index.php(17): require('/var/www/html/p...')
+#8 {main}
+  thrown in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 133
+[18-Jul-2017 18:14:57 UTC]  abc entrou
+[18-Jul-2017 18:14:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_home_path() in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php:133
+Stack trace:
+#0 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(298): Personalize_Login_Plugin->authenticate_certificado_social('')
+#1 /var/www/html/processoscoletivos/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/processoscoletivos/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/processoscoletivos/wp-settings.php(448): do_action('init')
+#4 /var/www/html/processoscoletivos/wp-config.php(94): require_once('/var/www/html/p...')
+#5 /var/www/html/processoscoletivos/wp-load.php(37): require_once('/var/www/html/p...')
+#6 /var/www/html/processoscoletivos/wp-blog-header.php(13): require_once('/var/www/html/p...')
+#7 /var/www/html/processoscoletivos/index.php(17): require('/var/www/html/p...')
+#8 {main}
+  thrown in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 133
+[18-Jul-2017 18:16:22 UTC]  abc entrou
+[18-Jul-2017 18:16:22 UTC] http://localhost/processoscoletivos
+[18-Jul-2017 18:16:22 UTC] /processoscoletivos/wp-cron.php?doing_wp_cron=1500401782.5900990962982177734375
+[18-Jul-2017 18:16:22 UTC]  abc entrou
+[18-Jul-2017 18:16:22 UTC] http://localhost/processoscoletivos
+[18-Jul-2017 18:16:22 UTC] /processoscoletivos/certificado-social/?access_token=488e2fced4d5eb416a13a1776c200bf8
+[18-Jul-2017 18:21:15 UTC]  abc entrou
+[18-Jul-2017 18:21:15 UTC] certificado-social
+[18-Jul-2017 18:21:15 UTC] entrou no if
+[18-Jul-2017 18:21:15 UTC] terminou if
+[18-Jul-2017 18:23:07 UTC]  abc entrou
+[18-Jul-2017 18:23:07 UTC] wp-admin
+[18-Jul-2017 18:23:08 UTC]  abc entrou
+[18-Jul-2017 18:23:08 UTC] wp-admin
+[18-Jul-2017 18:23:09 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"pt_BR","timezone":"America\/Sao_Paulo"}},"response_code":200,"response_body":{"location":{"ip":"179.236.189.129"},"events":"0 events trimmed."}}
+[18-Jul-2017 18:23:15 UTC]  abc entrou
+[18-Jul-2017 18:23:15 UTC] 
+[18-Jul-2017 18:23:22 UTC]  abc entrou
+[18-Jul-2017 18:23:22 UTC] wp-admin
+[18-Jul-2017 18:23:24 UTC]  abc entrou
+[18-Jul-2017 18:23:24 UTC] wp-admin
+[18-Jul-2017 18:23:28 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-admin/includes/translation-install.php on line 65
+[18-Jul-2017 18:24:30 UTC]  abc entrou
+[18-Jul-2017 18:24:30 UTC] wp-admin
+[18-Jul-2017 18:24:32 UTC]  abc entrou
+[18-Jul-2017 18:24:32 UTC] 
+[18-Jul-2017 18:24:41 UTC]  abc entrou
+[18-Jul-2017 18:24:41 UTC] wp-login.php?action=logout&_wpnonce=5a5870b249
+[18-Jul-2017 18:24:41 UTC]  abc entrou
+[18-Jul-2017 18:24:41 UTC] member-login
+[18-Jul-2017 18:24:46 UTC]  abc entrou
+[18-Jul-2017 18:24:46 UTC] 
+[18-Jul-2017 18:24:49 UTC]  abc entrou
+[18-Jul-2017 18:24:49 UTC] wp-login.php
+[18-Jul-2017 18:24:50 UTC]  abc entrou
+[18-Jul-2017 18:24:50 UTC] wp-login.php
+[18-Jul-2017 18:24:51 UTC]  abc entrou
+[18-Jul-2017 18:24:51 UTC] 
+[18-Jul-2017 18:25:37 UTC]  abc entrou
+[18-Jul-2017 18:25:37 UTC] wp-admin
+[18-Jul-2017 18:25:39 UTC]  abc entrou
+[18-Jul-2017 18:25:39 UTC] wp-admin
+[18-Jul-2017 18:25:55 UTC]  abc entrou
+[18-Jul-2017 18:25:55 UTC] wp-admin
+[18-Jul-2017 18:25:58 UTC]  abc entrou
+[18-Jul-2017 18:25:58 UTC] wp-admin
+[18-Jul-2017 18:25:58 UTC]  abc entrou
+[18-Jul-2017 18:25:58 UTC] wp-admin
+[18-Jul-2017 18:26:24 UTC]  abc entrou
+[18-Jul-2017 18:26:24 UTC] wp-login.php?action=logout&_wpnonce=d809eb6f4f
+[18-Jul-2017 18:26:25 UTC]  abc entrou
+[18-Jul-2017 18:26:25 UTC] member-login
+[18-Jul-2017 18:26:34 UTC]  abc entrou
+[18-Jul-2017 18:26:34 UTC] certificado-social
+[18-Jul-2017 18:26:34 UTC] entrou no if
+[18-Jul-2017 18:26:35 UTC] terminou if
+[18-Jul-2017 18:26:41 UTC]  abc entrou
+[18-Jul-2017 18:26:41 UTC] wp-login.php?action=logout&_wpnonce=220d3cbb0a
+[18-Jul-2017 18:26:47 UTC]  abc entrou
+[18-Jul-2017 18:26:47 UTC] wp-login.php?action=logout&_wpnonce=aa91f82f12
+[18-Jul-2017 18:26:47 UTC]  abc entrou
+[18-Jul-2017 18:26:47 UTC] member-login
+[18-Jul-2017 18:26:52 UTC]  abc entrou
+[18-Jul-2017 18:26:52 UTC] 
+[18-Jul-2017 18:27:07 UTC]  abc entrou
+[18-Jul-2017 18:27:07 UTC] certificado-social
+[18-Jul-2017 18:27:07 UTC] entrou no if
+[18-Jul-2017 18:27:07 UTC] terminou if
+[18-Jul-2017 18:27:30 UTC]  abc entrou
+[18-Jul-2017 18:27:30 UTC] wp-login.php?action=logout&_wpnonce=220d3cbb0a
+[18-Jul-2017 18:27:32 UTC]  abc entrou
+[18-Jul-2017 18:27:32 UTC] wp-login.php?action=logout&_wpnonce=52ade93a78
+[18-Jul-2017 18:27:32 UTC]  abc entrou
+[18-Jul-2017 18:27:32 UTC] member-login
+[18-Jul-2017 18:27:35 UTC]  abc entrou
+[18-Jul-2017 18:27:35 UTC] 
+[18-Jul-2017 18:28:46 UTC]  abc entrou
+[18-Jul-2017 18:28:46 UTC] wp-login.php
+[18-Jul-2017 18:28:48 UTC]  abc entrou
+[18-Jul-2017 18:28:48 UTC] wp-login.php
+[18-Jul-2017 18:28:48 UTC]  abc entrou
+[18-Jul-2017 18:28:48 UTC] 
+[18-Jul-2017 18:28:51 UTC]  abc entrou
+[18-Jul-2017 18:28:51 UTC] wp-admin
+[18-Jul-2017 18:28:54 UTC]  abc entrou
+[18-Jul-2017 18:28:54 UTC] wp-admin
+[18-Jul-2017 18:29:00 UTC]  abc entrou
+[18-Jul-2017 18:29:00 UTC] wp-admin
+[18-Jul-2017 18:30:01 UTC]  abc entrou
+[18-Jul-2017 18:30:01 UTC] wp-admin
+[18-Jul-2017 23:04:33 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:04:33 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:04:33 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:04:33 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:05:50 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:05:50 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:05:50 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:05:50 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:06:05 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"pt_BR","timezone":"America\/Sao_Paulo"}},"response_code":200,"response_body":{"location":{"ip":"179.236.189.129"},"events":"0 events trimmed."}}
+[18-Jul-2017 23:09:34 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:34 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:34 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:34 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:39 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:39 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:39 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:39 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:43 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:43 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:43 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:43 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:53 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:53 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:09:53 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:09:53 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:18:15 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:18:15 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:18:15 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:18:15 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:21:10 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:21:10 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:21:10 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:21:10 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:24:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:24:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:24:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:24:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:38:09 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:38:09 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 146
+[18-Jul-2017 23:38:09 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:38:09 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/processoscoletivos/wp-content/plugins/personalize-login/personalize-login.php on line 147
+[18-Jul-2017 23:57:49 UTC] WP_Community_Events::maybe_log_events_response: cURL error 28: Operation timed out after 0 milliseconds with 0 out of 0 bytes received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"pt_BR","timezone":"America\/Sao_Paulo"}},"response_code":"","response_body":null}
+[19-Jul-2017 11:57:15 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"pt_BR","timezone":"America\/Sao_Paulo"}},"response_code":200,"response_body":{"location":{"ip":"179.236.189.129"},"events":"0 events trimmed."}}
+[19-Jul-2017 11:57:26 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-includes/update.php on line 323
+[19-Jul-2017 12:17:47 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-admin/includes/plugin-install.php on line 164
+[19-Jul-2017 12:21:59 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-admin/includes/plugin-install.php on line 164
+[19-Jul-2017 12:22:02 UTC] PHP Warning:  Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="http://br.forums.wordpress.org">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/processoscoletivos/wp-admin/includes/plugin-install.php on line 164
+[19-Jul-2017 12:28:39 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"pt_BR","timezone":"America\/Sao_Paulo"}},"response_code":200,"response_body":{"location":{"ip":"179.236.189.129"},"events":"0 events trimmed."}}
