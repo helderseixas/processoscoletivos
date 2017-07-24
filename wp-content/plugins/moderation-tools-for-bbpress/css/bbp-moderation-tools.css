@@ -1,0 +1,14 @@
+.bbp-mt-template-notice {
+	border-width: 1px;
+    border-style: solid;
+    padding: 1em 0.6em;
+    margin: 5px 0 15px;
+    background-color: #ffffe0;
+    border-color: #e6db55;
+    color: #000;
+    text-align: center;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic.status-pending {
+    background-color: #ffffe0;
+}
