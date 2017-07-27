@@ -1,0 +1,17 @@
+#: inc/maintenance.php:323 inc/plugin-functions.php:297
+#: inc/plugin-functions.php:430
+msgid "vote"
+msgstr "Votar"
+
+#~ msgid "View Results"
+#~ msgstr "Ver resultados"
+
+#~ msgid "Poll total votes: %POLL-TOTAL-VOTES%"
+#~ msgstr "Total de votos %POLL-TOTAL-VOTES%"
+
+#: models/poll_model.php:1119 models/poll_model.php:1126
+msgid "You are not allowed to vote!"
+msgstr "Você não tem permissão para votar!"
+
+#~ msgid "Back to vote"
+#~ msgstr "Voltar para enquete"

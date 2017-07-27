@@ -1,0 +1,11 @@
+#: code/mods/bbcodes.php:149
+#: code/mods/quote.php:37
+#: code/mods/quote.php:39
+#: forms/tabs/bbcode.php:197
+msgid "Quote"
+msgstr "Citar"
+
+#: code/mods/bbcodes.php:464
+#: code/tools/front.php:34
+msgid "wrote"
+msgstr "escreveu"

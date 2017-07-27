@@ -39,7 +39,7 @@ msgstr "Moderador"
 #: includes/common/locale.php:44
 msgctxt "User role"
 msgid "Keymaster"
-msgstr "Mestre"
+msgstr "Administrador"
 
 #. Author of the plugin/theme
 msgid "The bbPress Community"

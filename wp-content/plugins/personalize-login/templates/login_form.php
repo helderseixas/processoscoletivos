@@ -20,7 +20,7 @@
 	<?php endif; ?>	
 	
 	Informe seu Certificado Social para acessar o sistema Processos Coletivos.<br/><br/>	
-	<!-- <form action="http://localhost:8080/certificadora-social-oauth2/login.jsp" method="POST"> -->
+	<!-- <form action="http://localhost:8080/certificadora-social-oauth2/login.jsp" method="POST">  -->
 	<form action="http://leasdle01.icei.pucminas.br:8080/certificadora-social-oauth2/login.jsp" method="POST">
 		<input type="hidden" name="client_id" id="client_id" value="exemploaplicativocliente">
 		<input type="hidden" name="client_secret" id="client_secret" value="9834ba657bb2c60b5bb53de6f4201905">

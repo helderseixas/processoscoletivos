@@ -16,7 +16,8 @@
 
 			<div class="site-info">
 				<?php do_action( 'twentythirteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentythirteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentythirteen' ), 'WordPress' ); ?></a>
+				<?php printf( __( 'Desenvolvido pelo LEASDLE/PUC Minas.') ); ?><br/>
+				Orgulhosamente criado com <a href='https://wordpress.org/'>WordPress</a> e <a href='https://bbpress.org/'>bbPress</a>.				
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
