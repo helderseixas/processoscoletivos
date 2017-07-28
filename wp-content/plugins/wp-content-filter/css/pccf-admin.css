@@ -1,0 +1,54 @@
+h2 { display: inline-block; }
+
+.icon-heading {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.icon-heading i {
+	vertical-align: baseline;
+}
+
+.pccf-dashicon-font {
+	display:                inline-block;
+	line-height:            1;
+	font:                   normal 24px/1 'dashicons';
+	-webkit-font-smoothing: antialiased;
+	vertical-align:         top;
+}
+
+.pccf-twitter-button:before {
+	content: '\f301';
+}
+
+a.pccf-twitter-link, a.pccf-twitter-link:visited {
+	color: #55acee;
+}
+
+a.pccf-twitter-link:hover {
+	color: #62b9fb;
+}
+
+.pccf-carrot-button:before {
+	content: '\f511';
+}
+
+a.pccf-carrot-link, a.pccf-carrot-link:visited {
+	color: #ed9121;
+}
+
+a.pccf-carrot-link:hover {
+	color: #fa9e2e;
+}
+
+.pccf-home-button:before {
+	content: '\f102';
+}
+
+a.pccf-home-link, a.pccf-home-link:visited {
+	color: #777;
+}
+
+a.pccf-home-link:hover {
+	color: #999;
+}
