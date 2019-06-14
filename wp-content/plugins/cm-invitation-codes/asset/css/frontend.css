@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+body.cmreg-overlay-visible {overflow: hidden;}
+.cmreg-overlay {position: fixed; top: 0; left: 0; width: 100%; height: 100%;  z-index: 999998; background-color: rgba(0,0,0,0.7);
+	font: normal 14px 'Open Sans', Arial, sans-serif; color: #666666; display: none;}
+.cmreg-loader-overlay {position: fixed; top: 0; left: 0; width: 100%; height: 100%;  z-index: 999998;
+	background: rgba(0,0,0,0.7) url(../img/ajax-loader-big.gif) no-repeat center 20%; background-size: 50px 50px;}
+.cmreg-overlay-inner {position: absolute; top: 5%; margin: 0 auto; left: 0; right: 0; background: white; border: solid 1px #cccccc;
+	max-width: 800px; padding: 2em; border-radius: 10px 10px; max-height: 90%; overflow: auto;}
+.cmreg-wrapper h2 {margin-top: 0 !important; color: black; font-size: 20px;}
+.cmreg-overlay-close {font: bold 35px Arial; color: #cccccc; position: absolute; top: 0px; right: 10px; cursor: pointer;}
+.cmreg-overlay .cmreg-login, .cmreg-overlay .cmreg-registration {display: inline-block; vertical-align: top;}
+.cmreg-wrapper {width: 49%;}
+.cmreg-sidebar-widget .cmreg-wrapper {width: auto !important;}
+.cmreg-sidebar-widget h2 {display: none !important;}
+.entry-content .cmreg-wrapper {margin-bottom: 3em;}
+.cmreg-wrapper div {margin: 0 0 1em 0;}
+.cmreg-wrapper input {margin: 0 !important;}
+.cmreg-wrapper button[type=submit] {padding: 0.7em 2em 0.7em 1.2em; font: bold 14px 'Open Sans', Arial, sans-serif; color: white;
+	border-radius: 5px 5px; border: none;}
+.cmreg-wrapper button[type=submit] span {margin-right: 0.5em;}
+.cmreg-wrapper input.text {padding: 0.4em 0.7em; border: 1px solid #cccccc;}
+.cmreg-wrapper input.text:focus {box-shadow: 0px 0px 5px 0px #992266;}
+.cmreg-login input.text {width: 80%; min-width: 100px;}
+.cmreg-registration input.text {width: 70%; min-width: 100px;}
+.cmreg-login *[type=submit] {background: #229966;}
+.cmreg-registration *[type=submit] {background: #336699;}
+.cmreg-loader-big {background-image: url(../img/ajax-loader-big.gif); background-repeat: no-repeat; background-position: center center;}
+.cmreg-loader-inline {display: inline-block; background: url(../img/ajax-loader.gif) no-repeat center center; width: 16px; height: 16px; margin: 0 !important;
+	vertical-align: middle;}
+
+.cmreg-login-button {display: inline-block; padding: 0.8em 1.7em; background: #226699; color: white !important; border-radius: 10px 10px;
+	font: bold 15px Arial; cursor: pointer;}
+.cmreg-toast {position: fixed; top: 40%; width: 20%; max-width: 400px; min-width: 200px; overflow: hidden; margin: 0 auto;
+	left: 0; right: 0; z-index: 999999; background: rgba(0,0,0,0.7); color: white; font: normal 100% sans-serif;
+	border-radius: 10px; text-align: center; padding: 1em 2em;}
+	
+.cmreg-lost-password-link, .cmreg-login-link {margin-top: 1em !important;}
+.cmreg-login .cmreg-lost-password-form {display: none;}
+.cmreg-lost-password-form {margin-top: 2em;}
+.cmreg-lost-password-form input[type=email] {width: 50%;}
+.cmreg-lost-password-form button[type=submit] {padding: 0.7em 2em; background: #229966;}
+.cmreg-invitation-code-field[data-input-visible="1"] a {display: none;}
+.cmreg-invitation-code-field[data-input-visible="0"] input {display: none;}
+	
+	
+@media (max-width: 480px) {
+	.cmreg-overlay-inner {top: 0; max-height: 100%;}
+	.cmreg-login, .cmreg-registration {display: block; width: 100%; margin-bottom: 2em;}
+}
+
+
+.cmreg-overlay.cmreg-only-login .cmreg-registration {display: none;}
+.cmreg-overlay.cmreg-only-registration .cmreg-login {display: none;}
+.cmreg-overlay.cmreg-only-login .cmreg-overlay-inner, .cmreg-overlay.cmreg-only-registration .cmreg-overlay-inner {max-width: 400px;}
+.cmreg-overlay.cmreg-only-login .cmreg-wrapper, .cmreg-overlay.cmreg-only-registration .cmreg-wrapper {width: 99%;}
+
+.cmreg-form h3 {margin-bottom: 0.5em;}
+.cmreg-form label {display: block !important;}
+.cmreg-form input[type=text], .cmreg-form input[type=email], .cmreg-form input[type=password] {width: 90%; max-width: 500px; font-size: 120%;}
+.cmreg-form textarea {width: 90%; height: 100px;}
+.cmreg-form .form-summary {margin-top: 1em;}
+.cmreg-form .form-summary input {padding: 0.7em 2em 0.7em 2em !important; font: bold 18px 'Open Sans', Arial, sans-serif; color: white;
+	border-radius: 5px 5px; border: none; background: #229966; cursor: pointer;}
+	
+.cmreg-social-login-btn {display: inline-block; padding: 0 15px 0 40px; height: 40px; line-height: 40px;}
+.cmreg-social-login-btn:link, .cmreg-social-login-btn:visited {color: white;}
+.cmreg-social-login-btn[data-provider="facebook"] {background: #3b5998 url(../img/facebook-icon-30.png) left center no-repeat;}
+
+.cmreg-field-label {display: block;}
+.cmreg-registration-extra-field {margin-top: 1em;}
+.cmreg-registration-extra-field input, .cmreg-registration-extra-field textarea, .cmreg-registration-extra-field select {width: 70%; min-width: 100px; border: 1px solid #cccccc;}
+.cmreg-registration-extra-field input {padding: 0.4em 0.7em;}
+.cmreg-registration-extra-field input[type=checkbox], .cmreg-registration-extra-field input[type=radio] {width: auto !important; padding: 0 !important; min-width: 0 !important;}
+.cmreg-registration-extra-field input[type=color] {width: auto; padding: 0 !important;}
+.cmreg-registration-extra-field textarea {width: 90%; min-height: 5em;}
+.cmreg-registration-extra-field .cmreg-field-description {color: #999999; font-sizez: 90%; display: block;}
+.cmreg-registration-extra-field .cmreg-field-required {}
+.cmreg-registration-extra-field .cmreg-radio-group label, .cmreg-registration-extra-field .cmreg-checkbox-group label {display: block;}
+.cmreg-registration-extra-field .cmreg-radio-group .cmreg-radio-label, .cmreg-registration-extra-field .cmreg-checkbox-group .cmreg-checkbox-label {margin-left: 0.5em;}
+.cmreg-registration-extra-field .cmreg-radio-group input, .cmreg-registration-extra-field .cmreg-checkbox-group input {vertical-align: middle;}
+
+

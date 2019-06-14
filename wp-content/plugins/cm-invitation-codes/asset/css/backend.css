@@ -1,0 +1,32 @@
+.cmreg-pagination, .cmreg-pagination li {list-style: none; margin: 0; padding: 0;}
+.cmreg-pagination li {display: inline-block;}
+.cmreg-pagination a {display: inline-block; padding: 0.5em 1em; font-size: 14px; text-decoration: none; font-weight: bold; background: #f0f0f0; border: 1px solid #cccccc; color: #777777;}
+.cmreg-pagination a:hover {color: black; border-color: #999999;}
+.cmreg-pagination .current-page a {background: white; color: black;}
+
+.cmreg-block {background: white; padding: 1em; width: 600px; border: solid 1px #dddddd; margin: 2em 2em 2em 0; float: left;}
+.cmreg-block h3 {margin-top: 0 !important;}
+
+.cmreg-admin-notice {position: relative; padding-right: 30px !important;}
+.cmreg-admin-notice .cmreg-dismiss {position: absolute; top: 10px; right: 10px; text-decoration: none; background: #aaaaaa; color: white;
+	border-radius: 15px 15px; width: 15px; height: 15px; text-align: center; font-size: 15px; font-weight: bold; line-height: 15px;}
+	
+.cmreg-field {margin: 1em 0;}
+.cmreg-buttons {margin-top: 2em;}
+.cmreg-profile-fields-save-btn {font-size: 2em !important; height: 2em !important; padding-left: 1em !important; padding-right: 1em !important;}
+
+#cmreg-form-wrap {background: white; padding: 1em; margin-top: 1em;}
+#cmreg-form-wrap .form-group.label-wrap .fld-label {background: white; border: 1px solid #c5c5c5; width: 95%;}
+#cmreg-form-wrap  .form-elements {display: flex; flex-direction: column;}
+#cmreg-form-wrap .form-group.label-wrap {order: -100;}
+#cmreg-form-wrap .form-group.name-wrap {order: -90;}
+#cmreg-form-wrap .form-group.subtype-wrap {order: -80;}
+#cmreg-form-wrap .form-group.required-wrap {order: -70;}
+#cmreg-form-wrap .form-group.access-wrap {order: -60;}
+#cmreg-form-wrap .form-group select {height: 2.5em;}
+#cmreg-form-wrap .frmb .sortable-options .option-selected {width: auto !important;}
+#cmreg-form-wrap .form-field > .field-label {display: inline !important;}
+#cmreg-profile-fields-form textarea {display: none;}
+
+.cmreg-profile-fields-download-csv {display: inline-block; background: white; padding: 2em; margin: 2em 0;}
+.cmreg-profile-fields-download-csv h2 {margin-top: 0;}

@@ -1,0 +1,48 @@
+login_button	Login	The login button shortcode default text.	Common
+logout_button	Logout	The logout button shortcode default text.	Common
+field_email	Email	Email field label.	Common
+field_password	Password	Password field label.	Common
+close	Close	Close button.	Common
+
+login_field_email	Email	Email field.	Login
+login_field_login	Login	Login field.	Login
+login_field_both	Login or email address	Login or email field.	Login
+login_form_header	Login	Login form header.	Login
+login_form_text	Login to access the website's features.	Login form text.	Login
+login_form_submit_btn	Login	Login form submit button.	Login
+login_form_remember	Remember me	Login form remember option.	Login
+login_success_msg	Login success.	Login success message.	Login
+login_error_msg	Invalid email or password.	Login error message.	Login
+login_error_invalid_captcha	Invalid captcha.	Invalid captcha error.	Login
+login_error_email_not_verified	Your account has not been verified yet. Please check your email account and confirm the registration.	Email not verified error.	Login
+login_registration_btn	Register	Registration button on the login form.	Login
+
+register_field_login	Login	Login field.	Registration
+register_form_header	Create a new account	Registration form header.	Registration
+register_form_text	Register new account in order to get access to the website.	Registration form text.	Registration
+field_repeat_password	Repeat password	Repeat password field label.	Registration
+field_display_name	Your displayed name	User's displayed name field label.	Registration
+register_form_submit_btn	Sign Up	Registration form submit button label.	Registration
+register_success_msg	User has been registered.	Registration success message.	Registration
+register_verification_msg	Please check your email account and open the verification link to confirm your registration.	User has been registered but must verify his email.	Registration
+register_error_msg	An error occurred during the registration. Please try again.	Registration error message.	Registration
+register_invalid_email_error_msg	Invalid email address.	Invalid email address error message.	Registration
+register_email_exists_error_msg	Email address already exists.	Email exists error message.	Registration
+register_login_exists_error_msg	That login already exists.	Login exists error message.	Registration
+register_repeat_pass_error_msg	Repeated password doesn't match.	Repated password error message.	Registration
+register_invalid_captcha_error	Invalid captcha.	Invalid captcha error.	Registration
+field_invitation_code	Invitation code	Invitation code field label.	Registration
+register_account_verification_success	You account has been verified. You can login now.	Account verification success message.	Registration
+register_account_verification_error	Failed to verify your account. Probably the verification link has expired.	Account verification error message.	Registration
+register_empty_pass_error_msg	Please enter your password.	Empty password error message.	Registration
+register_weak_pass_error_msg	Password must be at least 8 characters long and must contain at least one lowercase letter, one uppercase letter and one digit.	Too weak password error message.	Registration
+register_empty_extra_field_error	Please fill in all required fields.	Error when not all required fields has been filled.	Registration
+field_required	(required)	Required flag for input field.	Registration
+registration_login_btn	Login	Login link on the registration form.	Registration
+
+lost_pass_btn	Forgot your password?	Lost password link text.	Lost password
+lost_pass_header	Forgot your password?	Lost password header.	Lost password
+lost_pass_text	Enter your email address and we'll try to help you.	Lost password text.	Lost password
+lost_pass_submit_btn	OK	Lost password form submit button.	Lost password
+lost_pass_error_msg	Cannot find the email address. Please check if you've enter the valid email.	Lost password error message.	Lost password
+lost_pass_email_sent_msg	Please check your email account.	Check email message.	Lost password
